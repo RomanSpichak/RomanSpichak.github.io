@@ -1,0 +1,49 @@
+/* Style of main box */
+main {
+    width: 100%;
+    overflow: auto;
+}
+
+/* Style of left bar with photo and name */
+aside {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 0px 70px 0px;
+}
+
+/* Header in aside style having font gothic */
+aside h1 {
+    font-family: AppleGothic, sans-serif;
+}
+
+/* Image style like avatar and having shadow */
+aside img {
+    border-radius: 50%;
+    box-shadow: -5px 5px 25px dimgray;
+}
+
+/* Style of section */
+section {
+    width: 60%;
+    float: right;
+}
+
+/* Section header having center position and font gothic */
+section h1 {
+    text-align: center;
+    font-family: AppleGothic, sans-serif;
+}
+
+/* The container with info must have this settings */
+.container {
+    width: 45%;
+    float: left;
+    margin: 10px;
+    box-shadow: -5px 5px 25px dimgray;
+    padding: 10px;
+    font-family: "Andale Mono", monospace;
+    background-image: linear-gradient(to right, snow, aliceblue);
+    border-radius: 10px;
+}
+
